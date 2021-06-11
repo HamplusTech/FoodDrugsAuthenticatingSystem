@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FoodDrugsAuthenticatingSystem", "..\..\WebSites\FoodDrugsAuthenticatingSystem\", "{A01758F6-53B6-4802-9071-4FCDC6507DD0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/FoodDrugsAuthenticatingSystem"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\FoodDrugsAuthenticatingSystem\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\FoodDrugsAuthenticatingSystem\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/FoodDrugsAuthenticatingSystem"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\FoodDrugsAuthenticatingSystem\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\FoodDrugsAuthenticatingSystem\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "20475"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A01758F6-53B6-4802-9071-4FCDC6507DD0}.Debug|.NET.ActiveCfg = Debug|.NET
+		{A01758F6-53B6-4802-9071-4FCDC6507DD0}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
