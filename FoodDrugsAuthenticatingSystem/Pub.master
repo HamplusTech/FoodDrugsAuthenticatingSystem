@@ -1,0 +1,115 @@
+﻿<%@ Master Language="VB" CodeFile="Pub.master.vb" Inherits="Pub" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Public Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 30%;
+            border: 3px solid #F2CE7F;
+        }
+         .style6
+        {
+            text-align: center;
+            background-color: #009933;
+        }
+        .style7
+        {
+            width: 343px;
+        }
+    </style>
+</head>
+<body style="background-image: url('/C:/Users/USER/Documents/Visual Studio 2008/WebSites/FoodDrugsAuthenticatingSystem/Pics/images_6.jpg'); background-position: center center; background-attachment: fixed; background-repeat: no-repeat">
+    <form id="form1" runat="server" 
+    style="background-image: url('/C:/Users/USER/Documents/Visual Studio 2008/WebSites/FoodDrugsAuthenticatingSystem/Pics/images_6.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: center center">
+    <div>
+    
+        <table align="center" class="style1">
+            <tr>
+                <td colspan="3">
+                    <img alt="Food &amp; Drugs Authenticating System by EZEUKWU CHIGOZIE G." 
+                        longdesc="National Agency for Food and Drugs Administration and Control (EBSU Abakaliki-Nigeria)" 
+                        src="Pics/Header_F&D.jpg" style="width: 689px; height: 83px" /></td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td height="50" style="text-align: right" class="style7">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Authenticate.aspx">Authenticate</asp:HyperLink>
+&nbsp; ||&nbsp;
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Complaint.aspx">Complaint</asp:HyperLink>
+&nbsp; ||&nbsp;
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/View.aspx">View</asp:HyperLink>
+                </td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+               <div> <td class="style6" width="50">
+                    <img alt="Dr. Paul Orhii PhD" longdesc="Director General of NAFDAC" 
+                        src="Pics/images_7.jpg" style="width: 185px; height: 183px" /></td> </div>
+                <td class="style7">
+    <div>
+        <br />
+             &nbsp;<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+                </td>
+                <td valign="top">
+                    <asp:Panel ID="Panel1" runat="server" CssClass="style9" Height="177px" 
+                        Width="154px">
+                        <table bgcolor="#99CCFF" class="style5" 
+                            style="border-color: #99CCFF; background-color: #FFCC66;">
+                            <tr>
+                                <td class="style9">
+                                    <asp:Label ID="Label3" runat="server" Text="Total Number of Reported Cases"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="style9" style="text-align: center">
+                                    <asp:Label ID="lbRCases" runat="server" style="color: #CC0000"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="style9">
+                                    <asp:Label ID="Label6" runat="server" 
+                                        Text="We respect your Privacy. Please help NPF and Nigeria by reporting a crime."></asp:Label>
+                                </td>
+                            </tr>
+                        </table>
+                    </asp:Panel>
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+             <marquee behavior="scroll" direction="left" scrollamount="7" 
+                    style="width: 686px; height: 97px; text-align: right;">
+             <asp:Image ID="Image1" runat="server" Height="125px" 
+                                ImageUrl="~/Pics/images.jpg" Width="126px" />
+                                
+                <asp:Image ID="Image2" runat="server" Height="125px" 
+                                ImageUrl="~/Pics/images_2.jpg" Width="126px" />
+                                
+                <asp:Image ID="Image3" runat="server" Height="125px" 
+                                ImageUrl="~/Pics/images_3.jpg" Width="126px" />
+                                
+                <asp:Image ID="Image4" runat="server" Height="125px" 
+                                ImageUrl="~/Pics/images_4.jpg" Width="126px" /></marquee></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <img alt="F&amp;D System By Gozie" src="Pics/Footer_F&D.jpg" 
+                        style="width: 689px; height: 83px" /></td>
+            </tr>
+        </table>
+    
+    </div>
+    </form>
+</body>
+</html>
